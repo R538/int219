@@ -1,0 +1,371 @@
+#wrapper
+{
+    font-family:tahoma;
+}
+.container
+{
+    width:90%;
+    margin:0 auto;
+	
+}
+#subheader
+{
+    width:100%;
+    height:45px;
+    background:blue;
+    color:white;
+    margin-top:1px; 
+
+}
+#subheader p
+{
+    float:right;
+    margin-top:10px;
+
+}
+#subheader a
+{
+    float:right;
+    line-height:30px;
+    color:blue;
+    text-decoration:none;
+    margin-left:30px;
+}
+/* logo styling */
+#main-header
+{
+    width:100%;
+    height:80px;
+    background:blue;
+    float:left;
+    margin-top:1px ;
+}
+#logo
+{
+    width:250px;
+    margin-top:10px;
+    float:left;
+	
+}
+#ist
+{
+    color:white;
+    font-size:45px;
+    font-weight:bold;
+    margin-left:15px;
+    font-family:curvise;
+}
+#iist
+{
+    color:white;
+    font-size:35px;
+    font-weight:bold;
+    font-family:curvise;
+}
+/* search area*/
+#search
+{
+    width:650px;
+    float:left;
+    padding:20px;
+    margin-left:50px;
+}
+.search-area
+{
+    width:650px;
+    height:50px;
+    background:#fff;
+    border:none;
+    border-radius:10px;
+    float:left;
+    padding-left:15px;
+}
+.search-btn
+{
+    height:50px;
+    border-radius:10px;
+    border:none;
+    color:white;
+    width:100px;
+    background:lightgray;
+    margin-left:-100px;
+}
+/* styling for user menu*/
+#user-menu
+{
+    width:300px;
+    float:right;
+    margin-top:20px;
+}
+/* styling for list*/
+#user-menu li
+{
+    float:left;
+    width:110px;
+    text-align:center;
+    list-style:none;
+    font-size:20px;
+    border-left:1px solid white;
+	border-right:1px solid white;
+}
+#user-menu li:hover
+{
+    font-size:30px;
+    transition:all ease;
+}
+#user-menu li a
+{
+    color:white;
+    text-decoration:none ;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+             /****** BOX model  *****/
+
+.contain{
+    width:90%;
+	
+    margin:auto;
+    overflow:hidden;
+}
+
+.items{
+    width:30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float:left;
+    margin-left:1%;
+	margin-top:2%;
+}
+
+.thumbnail{
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.caption{
+    color:#000;
+    padding:0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+              /***** end of box model *********/
+
+        /****** slide shows contains   ********/
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/********** end of slideshows contains   *******/
+
+/*** add cart button and buy now button  ****/
+
+
+ .button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.button1 {background-color:#FFCC00;} 
+.button2 {background-color:#FF9900;} 
+
+/**** end of add cart and buy button   ***/
+
+
+/*  link of the thing in below */
+#footer
+{
+    width:100%;
+    height:auto;
+    background:#f5f5f5;
+    float:left;
+}
+.footer_sub
+{
+    width:25%;
+    float:left;
+    
+}
+.footer_sub ul li
+{
+    list-style:none;
+}
+.footer_sub ul li a
+{
+    text-decoration:none;
+    color:black;
+}
+.footer_sub ul li a:hover
+{
+    color:#1aaa1a;
+    text-decoration:underline;
+}
+.footer_sub_2
+{
+    width:20%;
+    float:left;
+}
+.footer_sub_2 ul li
+{
+    list-style:none; /*to remove the list bullets */
+
+}
+.footer_sub_2 ul li a
+{
+    text-decoration:none;
+    color:#000;
+}
+.footer_sub_2 ul li a:hover
+{
+    color:#1aaa1a;
+    text-decoration:underline;
+}
+.footer_sub_3
+{
+    width:35%;
+    float:left;
+}
+.subs
+{
+    width:350px;
+    border:none;
+    height:50px;
+    padding:15px;
+    float:left;
+}
+.sub_btn
+{
+    height:50px;
+    width:60px;
+    border:none;
+    background:grey;
+    float:left;
+}
+.sub_p
+{
+    color:#999;
+    font-style:italic;
+    font-size:15px;
+}
+
+footer{
+    background-color: #000;
+    color:#fff;
+    font-size:15px;
+}
+
+/***** end of link of the below  **************/

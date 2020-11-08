@@ -1,0 +1,336 @@
+<html>
+    <head>
+        <title>Today's deals</title>
+		<link rel="stylesheet" type="text/css" href="UPPERLOOKCSS.css">
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <style type="text/css">
+            .imgStyle
+            {
+                width:100px;
+                height:100px;
+                border:3px solid gold;
+            }
+			
+            </style>
+			<script type="text/javascript">
+                            var images = document.getElementById("divId").getElementsByTagName("img");
+                            for(var i=0;i<img.length;i++)
+                            {
+                                img[i].onmouseover=function()
+                                {
+                                    this.style.cursor='hand';
+                                    this.style.borderColor='red';
+                                }
+                                img[i].onmouseout=function()
+                                {
+                                    this.style.cursor='pointer';
+                                    this.style.borderColor='grey';
+                                }
+                            }
+                            function changeImageOnClick(event)
+                            {
+                                event=event||window.event;
+                                var targetElement=event.target||event.srcElement;
+                                document.getElementById("mainImage").src=targetElement.getAttribute("src");
+                            }
+                            </script>
+    </head>
+    <body>
+		
+	<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="UserReview.html">User reviews </a>
+  <div class="dropdown">
+    <button class="dropbtn">Products categories
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="elctronices.html">Electronics</a>
+      <a href="women.html">Women</a>
+      <a href="MEN.html">Men</a>
+      <a href="payment.html">Page for payment</a>
+    </div> 
+  </div> 
+  <a href="contact us page.html">Contact us page</a>
+<div id="subheader">
+                    <div class="container">
+                    <p><marquee direction="left">India's fastest online shopping place</marquee></p>
+					</div>	
+</div>	
+  
+                        <!--main header-->
+                        <div id="main-header">
+                            <!--logo-->
+                            <div id="logo">
+                                <span id="ist">Kart</span><span id="iist">Shop.com</span>
+                            </div>
+                            <!--search area-->
+                            <div id="search">
+                                <form action="">
+                                    <input class="search-area" type="text" name="text" placeholder="search">
+                                    <input class="search-btn" type="submit" name="submit" value="SEARCH">
+                                </form> 
+                            </div>
+                            <!--user menu-->
+                            <div id="user-menu">
+                                <li>
+								
+                                 <a href="sing up.html">Sing Up</a></a>
+								 </li>
+								
+                                <li>
+								<span></span>
+                                    <a href="log.html">login</a></a>
+                                </li>
+                            </div> 
+                        </div> 
+                        
+				
+                      
+							
+			 
+	 <br></div>
+	 <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="ra3.jpg" style="width:100%"></div>
+
+<div class="mySlides fade">
+  <img src="r4.jpg" style="width:100%"></div>
+
+<div class="mySlides fade">
+  <img src="ra2.png" style="width:100%"></div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+	  <div class=" contain">
+                <div class="items">
+                    <a href="#" >
+                        <img src="e9.jpg" alt="" class="thumbnail" width="500" height="500">
+                        <div class="caption">
+                           
+						<button class="button button1">Add to Cart</button>
+						<button class="button button2">Buy Now</button>
+						
+						</div>
+                    </a>
+                </div>
+				<div class="items">
+				
+                    <a href="#" >
+                        <img src="e7.jpg" alt="" class="thumbnail" width="500" height="500">
+                        <div class="caption">
+							 <button class="button button1">Add to Cart</button>
+						<button class="button button2">Buy Now</button>
+							 
+                        </div>
+                    </a>
+                </div>
+                <div class="items">
+                    <a href="#" >
+                        <img src="e8.jpg" alt="" class="thumbnail" width="500" height="500">
+                        <div class="caption">
+							<button class="button button1">Add to Cart</button>
+						<button class="button button2">Buy Now</button>
+                        </div>
+                    </a>
+                </div>
+    </div>
+        </div><br>
+               
+                        <div>
+                            <nav>
+                                <center><h2 style="font-weight:lighter;">BIGGEST DEALS ON BRANDS</h2></center>
+                                <center><a href="#"><img src="sam.jpg" width="240"></a>
+								<a href="#"><img src="real.png" width="240"></a>
+								<a href="#"><img src="mot.png" width="240"></a>
+                            </center>
+                            </nav>
+                        </div><br>
+                        
+                        <div>
+                            <nav>
+                                <center>
+                                    <a href="#"><img src="nike.png" width="240" height="240"></a>
+                                    <a href="#"><img src="reeb.jpg" width="240" height="240"></a>
+                                    <a href="#"><img src="add.png" width="240" height="240"></a>
+                                    <a href="#"><img src="puma.jpg" width="240"></a>
+                                </center>
+                            </nav>
+                        </div><br>
+                        <div>
+                            <nav>
+                                <center>
+                                    <a href="#"><img src="lev.jpg" width="240"></a>
+                                    <a href="#"><img src="tre.jpg" width="240" height="240"></a>
+                                    <a href="#"><img src="super.jpg" width="240" height="240"></a>
+                                    <a href="#"><img src="lad.jpg" width="240" height="240"></a>
+                                </center>
+                            </nav>
+                        </div><br><br>
+                        <div>
+						<nav>
+						
+						<nav>
+                        <center><h2 style="font-weight:lighter;">LAPTOP BY USE</h2>
+                            <a href="lapproduct details.html"><img src="del.jpg" width="340" height="180"></a>
+                            <a href="lapproduct details.html"><img src="hp.jpg" width="340" height="180"></a>
+                            <a href="lapproduct details.html"><img src="len.jpg" width="340" height="180"></a><br><br>
+                            <a href="lapproduct details.html"><img src="asu.jpg" width="340" height="240"></a>
+                            <a href="lapproduct details.html"><img src="del1.jpg" width="340" height="240"></a>
+                            <a href="elctproductdetail.html"><img src="relametv.jpeg" width="340" height="240"></a>
+                        </center>
+                        </nav>
+                        </div><br><br>
+                        <div>
+						<nav>
+                                <center>
+                                    <h2 style="font-weight:lighter;">MOBILES THROUGH VIDEOS</h2>
+                                    <a href="#">
+                                        <video width="400" height="240" controls>
+                                            <source src="realmei.mp4" type="video/mp4">
+                                        </video>
+                                    </a>
+                                    <a href="#">
+                                        <video width="400" height="240" controls>
+                                            <source src="dell.mp4" type="video/mp4">
+                                        </video>
+                                    </a>
+                                </center>
+                          </nav>
+                        </div><br><br>
+                        <nav>
+		
+		 <div id="footer">
+                                    <div class="container1">
+                                        <div class="footer_sub">
+                                            <center>
+                                            <h2>Get To Know Us</h2>
+                                            <ul>
+                                                    <li>
+                                                        <a href="#">About Us</a>
+                                                    </li>
+                                                    <li>
+                                                            <a href="#">Careers</a>
+                                              </li>
+                                                        <li>
+                                                                <a href="#">Press Releases</a>
+                                              </li>
+                                                            <li>
+                                                                    <a href="#">Gift A Smile</a>
+                                              </li>
+                                              </ul>
+                                          </center>
+                                      </div>
+                                            <div class="footer_sub_2">
+                                                <center>
+                                                    <h2>Important links</h2>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Home</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#">New Arrivals</a>
+                                                      </li>
+                                                            <li>
+                                                                    <a href="#">Order</a>
+                                                      </li>
+                                                                <li>
+                                                                        <a href="#">Products</a>
+                                                      </li>
+                                                                    <li>
+                                                                            <a href="#">Categories</a>
+                                                      </li>
+                                                                        <li>
+                                                                                <a href="#">Deals</a>
+                                                      </li>
+                                                    </ul>
+                                                </center>
+                                            </div>
+                                                <div class="footer_sub_2">
+                                                        <center>
+                                                                <h2>Social links</h2>
+                                                                <ul>
+                                                                    <li>
+                                                                        <a href="#">Facebook</a>
+                                                                    </li>
+                                                                    <li>
+                                                                            <a href="#">Google</a>
+                                                                  </li>
+                                                                        <li>
+                                                                                <a href="#">Youtube</a>
+                                                                  </li>
+                                                                            <li>
+                                                                                    <a href="#">Twitter</a>
+                                                                  </li>
+                                                                                <li>
+                                                                                        <a href="#">Linkedin</a>
+                                                                  </li>
+                                                                                    <li>
+                                                                                            <a href="#">Instagram</a>
+                                                                  </li>
+                                                                </ul>
+                                                  </center></div>
+                                                    <div class="footer_sub_3">
+                                                        <center>
+                                                        <h2>Get to know us more</h2>
+                                                        <input class="subs" type="text" name="subs" placeholder="your e-mail">
+                                                        <input type="submit" name="submit_btn" value="Go" class="sub_btn">
+                                                        <br><br>
+                                                        <p class="sub_p">Enter your e-mail id to get notifications from us</p>
+                                                        </center>
+                                                </div>
+           </div>
+    </div>
+                                </div>
+                            </div>
+                            <hr>
+        <!--Item categories listing end-->
+
+        <!--Footer-->
+        <footer>
+            <div class="contain">
+                <center>
+                    <p>Copyright &copy; KartShop.com. All Rights Reserved  |  Contact Us: +91 90000 00000</p>	
+                </center>
+            </div>
+        </footer>
+						
+						
+
+        
+		
+</body>
+</html> 
+		
+                            
+    </body>
+</html>
